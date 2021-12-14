@@ -2,7 +2,7 @@ name: basic_training_job
 description: "A production training job running on Anyscale."
 cluster_env: ga-demo:1
 compute_config_id: cpt_7tT3mfYxKar9iWqdhHPGDccr
-entrypoint: "python tune_training_example.py"
+entrypoint: "python basic.py"
 runtime_env:
-  working_dir: "https://github.com/AmeerHajAli/anyscale-ga-demo/archive/refs/heads/main.zip"
+  working_dir: "https://github.com/anabranch/ga-webinar/archive/refs/heads/master.zip"
 max_retries: 3
