@@ -1,0 +1,23 @@
+Prep ---->
+
+1. Start cluster
+RAY_ADDRESS=anyscale://hello python basic.py
+
+
+
+Actual:
+
+python basic.py
+
+RAY_ADDRESS=anyscale://hello python basic.py
+
+<open job config>
+
+anyscale job submit job.yaml
+
+<open servie config>
+
+anyscale service deploy serve.yaml \
+  --name my-production-service \
+  --description "A production service running on Anyscale."
+
